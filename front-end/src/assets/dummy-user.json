@@ -1,0 +1,42 @@
+[
+  {
+    "Username": "RaymondMM",
+    "Location": "Bijlmer",
+    "Firstname": "Ray",
+    "Lastname": "Monroe",
+    "Emailaddress": "raymond.monroe@example.com",
+    "Rights": "Admin"
+  },
+  {
+    "Username": "SarahSmith",
+    "Location": "Amstelveen",
+    "Firstname": "Sarah",
+    "Lastname": "Smith",
+    "Emailaddress": "sarah.smith@example.com",
+    "Rights": "User"
+  },
+  {
+    "Username": "JohnDoe",
+    "Location": "Bijlmer",
+    "Firstname": "John",
+    "Lastname": "Doe",
+    "Emailaddress": "john.doe@example.com",
+    "Rights": "User"
+  },
+  {
+    "Username": "AliceJohnson",
+    "Location": "Bijlmer",
+    "Firstname": "Alice",
+    "Lastname": "Johnson",
+    "Emailaddress": "alice.johnson@example.com",
+    "Rights": "Admin"
+  },
+  {
+    "Username": "RobertWilliams",
+    "Location": "Tilburg",
+    "Firstname": "Robert",
+    "Lastname": "Williams",
+    "Emailaddress": "robert.williams@example.com",
+    "Rights": "User"
+  }
+]

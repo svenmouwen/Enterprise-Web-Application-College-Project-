@@ -1,0 +1,150 @@
+:root {
+    --bg: #ffffff;
+    --theme: #DF0000;
+    --theme-hover: #a30000;
+    --green: #40c274;
+    --green-hover: #289755;
+    --red: #d84f4f;
+    --red-hover: #963636;
+    --orange: #e09650;
+    --orange-hover: #9b612b;
+    --gray: #D9D9D9;
+    --border: #C8C8C8;
+    --fill: #8C8C8C;
+    --textcolor: #181a1b;
+    --white: #ffffff;
+    --tablerow-odd: #fceeee;
+    --tablerow-even: #fcf6f6;
+}
+
+.text-color {
+    color: var(--textcolor);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.red:hover {
+    background-color: var(--red-hover);
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.green:hover {
+    background-color: var(--green-hover);
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.orange:hover {
+    background-color: var(--orange-hover);
+}
+
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'ITC Gothic Medium';
+}
+
+*:active,
+*:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.container {
+    width: 100%;
+    max-width: unset;
+    padding: 30px 50px;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.themed-button,
+.themed-button[type='reset'],
+.themed-button[type='submit'],
+.themed-button[type='button'] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme);
+    text-align: center;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.themed-button:hover {
+    background-color: var(--theme-hover);
+}
+
+.medium {
+    font-family: 'ITC Gothic Medium';
+}
+
+.semi-bold {
+    font-family: 'ITC Gothic Demi';
+}
+
+.bold {
+    font-family: 'ITC Gothic Bold';
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    /* Light grey */
+    border-top: 5px solid var(--theme);
+    /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* SWAL2 Library CSS Overwrite */
+.swal2-cancel.swal2-styled.swal2-default-outline:focus,
+.swal2-confirm.swal2-styled.swal2-default-outline:focus {
+    box-shadow: none;
+}
+
+.swal2-popup {
+    border-radius: 30px !important;
+}
+
+.swal2-container button {
+    border-radius: 15px !important;
+}
+
+.swal2-cancel.swal2-styled.swal2-default-outline {
+    background-color: var(--white) !important;
+    border: 2px solid var(--theme) !important;
+    color: var(--theme) !important;
+}
+
+.swal2-cancel.swal2-styled.swal2-default-outline:hover {
+    background-color: var(--white) !important;
+    background-image: unset !important;
+}
